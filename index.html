@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ethernos Verification Server</title>
+    <style>
+        body { font-family: Arial, sans-serif; max-width: 800px; margin: 50px auto; padding: 20px; }
+        h1 { color: #333; }
+        .info { background: #f0f0f0; padding: 15px; border-radius: 5px; margin: 20px 0; }
+        code { background: #e0e0e0; padding: 2px 5px; border-radius: 3px; }
+        .endpoint { margin: 10px 0; }
+    </style>
+</head>
+<body>
+    <h1>Ethernos Verification Server</h1>
+    <div class="info">
+        <p><strong>状态:</strong> 运行中</p>
+        <p><strong>最新区块:</strong> 1</p>
+        <p><strong>已登记包:</strong> 1</p>
+        <p><strong>吊销数量:</strong> 0</p>
+    </div>
+    
+    <h2>API 端点</h2>
+    <div class="endpoint">
+        <code>GET /transparency-log/latest.json</code> - 获取最新区块头
+    </div>
+    <div class="endpoint">
+        <code>GET /transparency-log/{height}.json</code> - 获取指定区块
+    </div>
+    <div class="endpoint">
+        <code>GET /revoked/crl.json</code> - 获取吊销列表
+    </div>
+</body>
+</html>
