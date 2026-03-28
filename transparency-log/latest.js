@@ -1,8 +1,0 @@
-{
-  "block_height": 1,
-  "merkle_root": "54bc1632e869d738",
-  "timestamp": "2026-03-28T10:00:00Z",
-  "previous_block": "0000000000000000000000000000000000000000000000000000000000000000",
-  "entry_count": 1,
-  "signatures": {}
-}
